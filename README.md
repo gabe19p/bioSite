@@ -1,2 +1,6 @@
-# bioSite
-Biography website for Madison Purselley
+<h1> WEB 200 Fundamentals of Web Development </h1>
+<h2> Contributors </h2>
+<ul>
+  <li>Robert Kumar</li>
+  <li>Danial Purselley</li>
+</ul>
