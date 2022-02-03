@@ -1,0 +1,23 @@
+.nav-wrapper {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  margin: 0px;
+  height: 20px;
+  justify-content: space-between;
+  text-transform: lowercase;
+  font-family: "Baskervville", serif;
+}
+
+#nav {
+  padding: 5px;
+}
+
+h1 {
+  font-family: "Roboto Condensed", sans-serif;
+  text-transform: uppercase;
+}
+
+.logo {
+  text-transform: uppercase;
+}
