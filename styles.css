@@ -14,7 +14,7 @@
   border-bottom: 1px solid rgb(0, 0, 0);
 }
 
-#nav {
+.nav {
   padding: 5px;
 }
 
@@ -50,12 +50,22 @@
   left: -25px;
 }
 
+.image-wrapper-right {
+  width: 250px;
+  height: 250px;
+  background-color: black;
+  /* background color set to black to visualize edits. set to white before completion */
+  position: absolute;
+  top: -25px;
+  right: -25px;
+}
+
 h1 {
   font-family: "Roboto Condensed", sans-serif;
   text-transform: uppercase;
 }
 
-.logo {
+#logo {
   text-transform: uppercase;
 }
 
