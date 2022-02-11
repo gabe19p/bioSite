@@ -43,8 +43,7 @@
 .image-wrapper {
   width: 250px;
   height: 250px;
-  background-color: black;
-  /* background color set to black to visualize edits. set to white before completion */
+  background-color: white;
   position: absolute;
   top: -25px;
   left: -25px;
@@ -53,11 +52,24 @@
 .image-wrapper-right {
   width: 250px;
   height: 250px;
-  background-color: black;
-  /* background color set to black to visualize edits. set to white before completion */
+  background-color: white;
   position: absolute;
   top: -25px;
   right: -25px;
+}
+
+.image-wrapper-right > img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-wrapper-left > img {
+  position: relative;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h1 {
@@ -69,7 +81,17 @@ h1 {
   text-transform: uppercase;
 }
 
-.footer {
+footer {
   text-align: center;
   text-transform: lowercase;
+}
+
+#portrait {
+  position: relative;
+  width: 300px;
+  height: 300px;
+}
+
+.right-align {
+  margin-right: 200px;
 }
