@@ -158,5 +158,8 @@ img {
   height: 20px;
 }
 
-#youtube {
+#first,
+#last {
+  text-align: center;
+  margin: 10px;
 }
