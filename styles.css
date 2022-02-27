@@ -55,6 +55,10 @@
   border-radius: 10px;
 }
 
+#bio {
+  min-width: 1000px;
+}
+
 .description-wrapper > p {
   padding: 20px;
   overflow: hidden;
@@ -85,7 +89,6 @@
 #mouth,
 #school,
 #golf,
-#golf,
 #camera,
 #pot {
   object-fit: cover;
@@ -94,7 +97,6 @@
 #bible,
 #mouth,
 #school,
-#golf,
 #golf,
 #camera,
 #pot {
@@ -111,6 +113,7 @@
   top: -25px;
   left: -25px;
   -webkit-box-shadow: 5px 5px 10px -10px #000;
+  display: inline-block;
 }
 
 .image-wrapper-right {
@@ -142,9 +145,10 @@ h1 {
   font-family: "Roboto Condensed", sans-serif;
   text-transform: lowercase;
   font-size: 80px;
-  letter-spacing: 1em;
-  position: static;
-  text-align: justify;
+  letter-spacing: 50px;
+  position: relative;
+  text-align: center;
+  margin-right: -50px;
 }
 
 #logo {
@@ -174,16 +178,10 @@ footer {
   height: 20px;
 }
 
-img {
+footer img {
   object-fit: scale-down;
   width: 20px;
   height: 20px;
-}
-
-#first,
-#last {
-  text-align: center;
-  margin: 10px;
 }
 
 .hero {
@@ -193,6 +191,42 @@ img {
 }
 
 #cam {
-  width: 400px;
+  width: 350px;
   height: 400px;
+}
+
+.image-wrapper-left:hover .bottom {
+  display: inline-block;
+}
+
+.image-wrapper-left:hover .top {
+  display: none;
+}
+
+.image-wrapper-right:hover .bottom {
+  display: inline-block;
+}
+
+.image-wrapper-right:hover .top {
+  display: none;
+}
+
+.top {
+  z-index: 1;
+  position: absolute;
+}
+
+.bottom {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  width: 250px;
+  height: 250px;
+  z-index: 99;
+}
+
+#school-photo {
+  object-position: right;
 }
