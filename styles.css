@@ -57,6 +57,7 @@
 
 #bio {
   min-width: 1000px;
+  min-height: 225px;
 }
 
 .description-wrapper > p {
@@ -229,4 +230,8 @@ footer img {
 
 #school-photo {
   object-position: right;
+}
+
+#big {
+  min-height: 250px;
 }
